@@ -39,5 +39,12 @@ Touching exposed electronics (arduino) with naked hands could damage it. Conside
 
 ### Reliability
 
+We've battle tested it during our internal investigations on Mac OSX. Additionally development stability tests were performed on Debian based Linux distro.
+
+In both cases, it's activation was apparent few seconds after insertion and ScreenSaver hasn't kicked in for more than 48h (weekend memory acquisition).
+
+I am not aware of any running time limitation but I cannot guarantee it.
 
 ### Forensic footprint
+
+Device acts as normal HID device (usb mouse) and according system journals are updated with entry of inserting USB device. No other files are created/modified except using already installed USB HID drivers.
