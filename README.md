@@ -20,7 +20,7 @@ emulating "user activity" and preventing screen-saver from locking up desktop.
 
 ## Installation
 
-  - Download and install Arduino IDE from their website (https://www.arduino.cc/en/Main/Software) or from your package repository: ```apt-get install arduino```.
+  - Download and install Arduino IDE from their website (https://www.arduino.cc/en/Main/Software).
   - Connect your Arduino board (via onboard micro USB port) to your computer USB port.
   - Open Arduino IDE and open project ```mouse_jiggler.ino``` file from this repository.
   - In Arduino IDE choose device type (```TOOLS > Board > Arduno Micro``` or similar) and port where programmer is connected to (```TOOLS > Port > ...```).
